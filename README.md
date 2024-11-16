@@ -13,8 +13,8 @@ int main(void)
   SystemClock_Config();
   MX_GPIO_Init();
 
-    EmPin_t button = EmPin(BUTTON_GPIO_Port, BUTTON_Pin);
-    EmPin_t ledRed = EmPin(LED_RED_GPIO_Port, LED_RED_Pin);
+  EmPin_t button = EmPin(BUTTON_GPIO_Port, BUTTON_Pin);
+  EmPin_t ledRed = EmPin(LED_RED_GPIO_Port, LED_RED_Pin);
 
   while(1)
   {
