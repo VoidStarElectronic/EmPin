@@ -1,8 +1,8 @@
 # EmPin
   Stm32 Pin Driver 
  
-Example :
-```
+### Example :
+```c
 #include "main.h"
 #include "gpio.h"
 #include "EmPin.h"
